@@ -1,0 +1,26 @@
+.parent_div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+.text {
+  font-family: "Syncopate";
+  font-size: "36px";
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  background: linear-gradient(
+    139.29deg,
+    #daff17 -14.22%,
+    #ffaf2e 45.6%,
+    #e400ff 107.97%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

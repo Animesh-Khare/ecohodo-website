@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.scroll-div {
+  position: absolute;
+  top: 0;
+  color: white;
+  opacity: 0;
+  transform: translateY(20px);
+  /* transition: opacity 0.5s, transform 0.5s; */
+}
+
+.scroll-div.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.content {
+  height: 150vh; /* Adjust based on your content size */
+  padding: 20px;
+}
+
+.scroll-indicator {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}

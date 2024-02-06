@@ -1,0 +1,21 @@
+.input_tag {
+  display: flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 12px;
+  background: rgba(237, 248, 230, 0.2);
+  border: "2px solid white";
+  width: 100%;
+  color: #999;
+
+  z-index: 1000;
+
+  /* Discription 02 */
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+}

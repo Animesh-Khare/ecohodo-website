@@ -1,0 +1,25 @@
+.puzzle-container {
+  filter: blur(0);
+  transition: filter 0.3s ease;
+}
+
+.puzzle-container.blur {
+  filter: blur(5px);
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.puzzle-image {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: filter 0.3s ease;
+}
+
+.puzzle-image.highlighted {
+  filter: blur(5px);
+}

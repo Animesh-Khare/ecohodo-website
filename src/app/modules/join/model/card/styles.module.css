@@ -1,0 +1,58 @@
+.input_tag {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  border-radius: 12px;
+  background: rgba(237, 248, 230, 0.2);
+  color: var(--White, #fff);
+  width: 100%;
+
+  /* Discription 02 */
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+}
+
+.input_tag::placeholder {
+  /* Discription 02 */
+  color: var(--White, #fff);
+
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+}
+
+.PDI_upload_div {
+  width: 100%;
+  height: fit-content;
+  background: rgba(237, 248, 230, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border-radius: 12px;
+  background: rgba(237, 248, 230, 0.2);
+  color: var(--White, #fff);
+  width: 100%;
+
+  /* Discription 02 */
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+}
+.PDI_upload_label {
+  display: flex;
+}
+[type="file"] {
+  position: absolute;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}

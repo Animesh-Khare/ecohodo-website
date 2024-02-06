@@ -1,0 +1,9 @@
+.div_name {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.active {
+  opacity: 1;
+  transform: translateY(0);
+}
